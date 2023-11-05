@@ -1,3 +1,4 @@
+export {};
 /* eslint-disable @typescript-eslint/no-unused-vars */
 
 /** TypeScriptの基本の型 */

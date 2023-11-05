@@ -1,10 +1,12 @@
 export const Practice1 = () => {
-  const calcTotalFee = (num: number) => {
+  const getTotalFee = (num: number) => {
     const total = num * 1.1;
-    console.log(total);
+    return total
   };
 
-  const onclickPractice = () => calcTotalFee(1000);
+  const onclickPractice = () => {
+    console.log(getTotalFee(1000));
+  };
   return (
     <div>
       <p>練習問題:引数の型指定</p>
